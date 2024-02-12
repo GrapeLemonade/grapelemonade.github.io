@@ -1,0 +1,734 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-cn,en,default" >
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon.png">
+  <link rel="icon" href="/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Grape Lemonade">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="">
+  
+  
+  
+  <title>葡萄味的一眼清泉</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="../../../../../custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"grapelemonade.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"gtag":null},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <strong>葡萄味的一眼清泉</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>Home</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>Archives</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>Categories</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>Tags</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/banner.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="= ="></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2024/02/12/ProofsArgsAndZK/04c-gkr/" target="_self">
+          Chapter 4C GKR 协议
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2024/02/12/ProofsArgsAndZK/04c-gkr/" target="_self">
+        <div>
+          基本定义 GKR 协议是具有较好泛用性的协议。GKR 协议能证明满足一定限制的算术电路 C\mathcal{C}C 的输出。 对于 C={Cn∣n∈N}\mathcal{C}=\{\mathcal{C}_n\mid n\in \mathbb{N}\}C={Cn​∣n∈N} 的要求：  C\mathcal{C}C 是 log-space uniform 的，这指的是存在一个运行在对数空间内的图灵机
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-12 13:49" pubdate>
+              2024-02-12
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Zero-Knowledge/" class="category-chain-item">Zero Knowledge</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2024/02/08/ProofsArgsAndZK/04b-matmulip/" target="_self">
+          Chapter 4B 矩阵乘法 IP 的应用
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2024/02/08/ProofsArgsAndZK/04b-matmulip/" target="_self">
+        <div>
+          再探三元环计数 对于无向简单图 GGG 的邻接矩阵 A\bm{A}A，GGG 中三元环的数量可表示为 16∑ij(A2)ijAij\cfrac{1}{6}\sum_{ij}(\bm{A}^2)_{ij}\bm{A}_{ij} 61​ij∑​(A2)ij​Aij​ 考虑证明计算结果 6Δ=∑ij(A2)ijAij6\Delta = \sum_{ij}(\bm{A}^2)_{ij}\bm{A}_{ij
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-08 22:03" pubdate>
+              2024-02-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Zero-Knowledge/" class="category-chain-item">Zero Knowledge</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2024/02/06/ProofsArgsAndZK/04a-sumcheck/" target="_self">
+          Chapter 4A Sum-Check 协议
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2024/02/06/ProofsArgsAndZK/04a-sumcheck/" target="_self">
+        <div>
+          Sum-Check 协议 考虑有限域 F\mathbb{F}F 上的 vvv 元多项式 ggg，其关于每个未定元 xix_ixi​ 的次数 deg⁡ig\deg_i gdegi​g 均满足 deg⁡ig≤d\deg_i g\le ddegi​g≤d。Sum-Check 协议的总目标是证明： H≔∑b1∈{0,1}∑b2∈{0,1}⋯∑bv∈{0,1}g(b1,…,bv)H\coloneqq\sum
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-06 21:33" pubdate>
+              2024-02-06
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Zero-Knowledge/" class="category-chain-item">Zero Knowledge</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2024/02/06/ProofsArgsAndZK/03-prelim/" target="_self">
+          Chapter 3 定义与背景知识
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2024/02/06/ProofsArgsAndZK/03-prelim/" target="_self">
+        <div>
+          交互式证明 对于映射 f:{0,1}n→Rf:\{0, 1\}^n\to \mathcal{R}f:{0,1}n→R，一个 kkk-消息的交互式证明系统（IP）包含：  一个随机化的 Verifier 算法 V\mathcal{V}V 一个确定性的 Prover 算法 P\mathcal{P}P  交互流程：  公共输入 x∈{0,1}nx\in \{0, 1\}^nx∈{0,1}n P\math
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-06 19:09" pubdate>
+              2024-02-06
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Zero-Knowledge/" class="category-chain-item">Zero Knowledge</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2024/02/05/ProofsArgsAndZK/02-randomness/" target="_self">
+          Chapter 2 随机的力量：数据水印与插值
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2024/02/05/ProofsArgsAndZK/02-randomness/" target="_self">
+        <div>
+          Reed-Solomon 水印 Alice / Bob 有串 a,ba, ba,b，希望证明 a=ba=ba=b。确定性策略的通信量下界是 n=∣a∣n=|a|n=∣a∣。 策略 考虑构造随机性策略，从一族哈希函数 H\mathcal{H}H 中选取一个 hhh，我们希望对于 x≠yx\neq yx=y，有： Pr⁡h∈H[h(x)=h(y)]≤ε\Pr_{h\in \mathcal{H}}[h
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2024-02-05 22:41" pubdate>
+              2024-02-05
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Zero-Knowledge/" class="category-chain-item">Zero Knowledge</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2023/08/24/Analytic%20Combinatorics/AC/" target="_self">
+          Zig-zag Perm 的 EGF
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2023/08/24/Analytic%20Combinatorics/AC/" target="_self">
+        <div>
+          Zig-zag Perm 考虑两项之间的关系分别是增、减、增、减……的 111 到 nnn 的排列，比如 4 8 6 7 5 9 1 3 2。只考虑长度为奇数的排列。数量的前几项是 1,2,16,272,79361,2,16,272,79361,2,16,272,7936。 书说它的 EGF 直接就是 tan⁡z\tan ztanz，太神了，待我看看怎么推的 考虑最大值所在的位置，感觉它好像只能在
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-08-24 10:46" pubdate>
+              2023-08-24
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Analytic-Combinatorics/" class="category-chain-item">Analytic Combinatorics</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2023/04/26/BUAACTF/2023/Writeup/" target="_self">
+          BUAACTF 2023 Writeup
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2023/04/26/BUAACTF/2023/Writeup/" target="_self">
+        <div>
+          嗯，分专题地一个个搞总感觉太专业了，我一个业余选手还是按时间顺序以写游记的心态来写吧（ 简况  总排名 2/45 赛道排名 1/22 得分 6931 攻克数量 26/41 一血 *5，二血 *3，三血 *4   分方向  Misc 4/8，二血 *1，三血 *1 Crypto 8/8，一血 *3，二血 *1，三血 *2 Pwn 2/7，三血 *1 Web 4/9，一血 *1 Reverse 8/9
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2023-04-26 08:12" pubdate>
+              2023-04-26
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="2022/09/27/Project%20Euler/project-euler-1-50/" target="_self">
+          Project Euler 1-50
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="2022/09/27/Project%20Euler/project-euler-1-50/" target="_self">
+        <div>
+          网站链接：Project Euler 比较简单的会写得比较简略（应该吧）= = 1-10  简单容斥。 小于 nnn 的 Fibonacci 数的个数只有 Θ(log⁡n)\Theta(\log n)Θ(logn)，这个量级甚至能手算 = = O(n)O(\sqrt n)O(n​) 暴力分解。 枚举。 求 LCM 即可。 这两个和的闭形式都是耳熟能详的，可以直接手算。 简单筛法。 遍历。这里可以每
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-09-27 15:25" pubdate>
+              2022-09-27
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="categories/Project-Euler/" class="category-chain-item">Project Euler</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+  </noscript>
+</body>
+</html>
